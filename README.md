@@ -1,7 +1,7 @@
 These shell scripts are designed to facilitate the conversion of genomic data from BAM and VCF files into VCF files and consensus sequences. They are useful for researchers working with next-generation sequencing data who need to generate variant calls and consensus sequences.
 
 **Scripts Overview**
-####################
+
 
 **BAM to VCF Conversion Script**
 
@@ -21,7 +21,7 @@ samtools: Used for generating depth information from BAM files.
 Shell environment (e.g., bash).
 
 **Usage**
-#########
+
 
 **BAM to VCF Conversion Script**
 
@@ -61,10 +61,17 @@ The BAM to VCF script outputs a VCF file containing variant calls.
 The VCF to Consensus script outputs a FASTA file containing the consensus sequence, with regions of low coverage marked with 'N'.
 
 Notes
+
 Ensure that the BAM file is sorted and indexed before running the BAM to VCF script.
+
 The VCF to Consensus script assumes a single reference sequence and processes it in its entirety. Adjustments may be needed for multi-contig references.
+
 The bcftools and samtools utilities must be installed and accessible in your system's PATH.
-Troubleshooting
+
+**Troubleshooting**
+
 Ensure all input files are correctly formatted and paths are specified correctly.
+
 Verify that bcftools and samtools are installed and accessible.
+
 For questions or issues, please contact the script author or maintainer.
