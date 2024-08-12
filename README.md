@@ -29,11 +29,11 @@ bash
 
 ./bam_to_vcf.sh -b <input_bam_file> -r <reference_genome> -o <output_vcf_file>
 
-Arguments:
+Arguments: /nt
 
--b, --bam: Path to the input BAM file.
--r, --reference: Path to the reference genome in FASTA format.
--o, --output: Path to the output VCF file.
+-b, --bam: Path to the input BAM file. /nt
+-r, --reference: Path to the reference genome in FASTA format. /nt
+-o, --output: Path to the output VCF file. nt
 
 Example:
 
